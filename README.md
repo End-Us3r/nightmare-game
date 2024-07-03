@@ -1,7 +1,20 @@
 # adventure game
 
-This code is an adventure game that allows the player to move between different locations and make choices that affect the outcome of the game. The game is started from the 'main' function, which outputs a welcome message and prompts the user to start the game. The player starts in the 'field' location, and can choose to move to the 'home' or 'forest' location. From 'home', the player can choose to move to the 'forest' location or retrieve a 'sword' item. From 'forest', the player can encounter a 'bear' event or move to the 'mountain' location. From 'mountain', the player can choose to move to the 'home' or 'cave' location. From 'cave', the game ends with a final message. 
+Adventure Game Description:
 
-The code uses various functions to represent the different locations and events in the game, including 'field', 'home', 'forest', 'mountain', 'cave', and 'bearAttack'. The code also includes a boolean variable 'hasSword' that tracks whether the player has retrieved the sword item or not. 
+    Overview: The adventure game allows the player to navigate between various locations and make choices that influence the game's outcome.
 
-The code uses the Sleep() function from the windows.h library to pause the output for a specified amount of time, creating a more immersive experience for the player. The code also uses the cin function to get input from the player, and includes error messages and recursion to ensure that the player inputs valid commands.
+    Game Flow:
+        The game starts from the main function, displaying a welcome message and prompting the user to begin.
+        Initially, the player is situated in the field location.
+        From the field, the player can move to either home or forest.
+        From home, choices include moving to the forest or retrieving a sword item.
+        In the forest, players may encounter a bear event or proceed to the mountain.
+        At the mountain, options include returning home or entering the cave.
+        Upon entering the cave, the game concludes with a final message.
+
+    Code Elements:
+        The game employs functions like 'field', 'home', 'forest', 'mountain', 'cave', and 'bearAttack' to represent different locations and events.
+        A boolean variable 'hasSword' tracks whether the player has acquired the sword item.
+        The Sleep() function from windows.h library is used to pause output, enhancing immersion.
+        User input is handled via cin, with error messages and recursion ensuring valid commands.

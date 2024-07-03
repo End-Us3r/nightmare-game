@@ -1,4 +1,4 @@
-# reimagined-happiness
+# adventure game
 
 This code is an adventure game that allows the player to move between different locations and make choices that affect the outcome of the game. The game is started from the 'main' function, which outputs a welcome message and prompts the user to start the game. The player starts in the 'field' location, and can choose to move to the 'home' or 'forest' location. From 'home', the player can choose to move to the 'forest' location or retrieve a 'sword' item. From 'forest', the player can encounter a 'bear' event or move to the 'mountain' location. From 'mountain', the player can choose to move to the 'home' or 'cave' location. From 'cave', the game ends with a final message. 
 
